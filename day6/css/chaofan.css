@@ -1,0 +1,523 @@
+.box{
+    width: 100%;
+    height: 5300px;
+    background: pink;
+}
+/* -----------头部header区域---------- */
+.box .header{
+    height: 82px;
+    width: 100%;
+}
+/* --------- */
+.header .nav{ 
+    height: 82px;
+}
+
+.nav ul .list1{  
+    line-height: 82px;
+    text-align: center;
+    margin-right: 60px;
+    font-size: 14px;
+}
+.list1 a{
+    color: black;
+}
+h2{
+    float: left;
+    width: 420px;
+    height: 80px;
+    background-image: url(../images/images/logo.png);
+    background-repeat: no-repeat;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+/* ----------先让a标签变成块级元素---------- */
+.list1 a{
+    display: block;
+}
+/* -----------鼠标点击中文链接时消失---------- */
+.nav .list1:hover .zhongwen{
+    display: none;
+}
+/* ---------先把英文的设置消失------------ */
+.nav .list1 .yingwen{
+    display: none;
+}
+/* --------鼠标点击中文链接时消失，英文就显现------------ */
+.nav .list1:hover .yingwen{
+    display: block;
+}
+
+/* ------------轮播图区域---------- */
+.box .banner{
+    width: 100%;
+    height: 638px;
+    background-image: url(../images/images/56f3527bb57ce.jpg);
+    background-position: center center;
+}
+
+/* ----------------main1区域------------ */
+.box .main1{
+    height: 727px;
+    width: 100%;
+    text-align: center;
+}
+.img1{
+    margin-top: 41px;
+    margin-bottom: 24px;
+}
+
+/* 换行符保留，不留空白，正常换行 */
+.main1 p{
+    white-space: pre-line;
+    color: #666666;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+ 
+/* ----------img区域----------- */
+.main1 .image{
+    float: left;
+    width: 1187px;
+    height: 440px;
+    text-align: center;
+    margin-left: 105px;
+    margin-top: 57px;
+} 
+
+.list2{
+    float: left;
+    width: 352px;
+    height: 218px;
+    position: relative;
+    
+} 
+/* 子决父相  子绝对定位 父相对定位*/
+.list2 .title{
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    background: #189ada;
+    line-height: 71px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.list2 .box1{
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.list2:hover .box1{
+    background: #189ada;
+    width: 100%;
+    height: 100%;
+    display: block;
+} 
+.list2 .title1{
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    background: blue;
+    line-height: 71px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.list2 .title2{
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    background: #f8c80d;
+    line-height: 71px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.list2 .title3{
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    background: #d7097b;
+    line-height: 71px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.list2 .title4{
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    background: #f62525;
+    line-height: 71px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.list2 .title5{
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    background: #93c22e;
+    line-height: 71px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ------main2区域---------- */
+.box .main2{
+    height: 760px;
+    width: 100%;
+    text-align: center;
+    background: #ebeff1;
+}
+
+.main2 p{
+    color: #666666;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 57px;
+}
+.main2 .image{
+    margin-left: 105px;
+}
+.main2 .image li{
+    float: left;
+    width: 284px;
+    height: 167px;
+}
+
+.main2 .image .none1{
+    display: none;
+}
+.main2 li:hover .none{
+    display: none;
+}
+.main2 li:hover .none1{
+    display: block;
+}
+/* ----------main3区域--------- */
+.box .main3{
+    height: 683px;
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+} 
+
+.main3 p{
+    color: #666666;
+    font-size: 18px;
+    line-height: 24px;
+} 
+.main3 .image{
+    margin-left: 105px;
+    margin-top: 56px;
+}
+.main3 .image li{
+    float: left;
+}
+.main3 .image img{
+    width: 283px;
+    height: 212px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+
+/* -----------main4区域--------- */
+.box .main4{
+    height: 800px;
+    width: 100%;
+    background: #7db0cb;
+    text-align: center;
+}
+.main4 .p1{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.main4 .list div{
+    float: left;
+    width: 551px;
+    height: 169px;
+    background:yellowgreen;
+    margin-bottom: 15px;
+} 
+.main4 .list .list-left{ margin-right: 40px;}
+
+
+.list .list-left img{
+    float: left;}
+
+.list .list-left .box1{
+    float: left;
+    width: 330px;
+    height: 100%;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.list .list-left h4{
+    font-size: 13px;
+    margin-top: 29px;
+    margin-bottom: 18px;
+}
+
+.list-left .box1 p{
+    font-size: 12px;
+    color: #777777;
+}
+
+.main4 p #i2{
+    padding-left: 190px;
+}
+.main4 .list span{
+    color: #ccd0dd;
+}
+.list .list-right img{
+    float: left;}
+
+.list .list-right .box1{
+    float: left;
+    width: 330px;
+    height: 100%;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.list .list-right h4{
+    font-size: 13px;
+    margin-top: 29px;
+    margin-bottom: 18px;
+}
+.list-right .box1 p{
+    font-size: 12px;
+    color: #777777;
+}
+.list {
+    margin-left: 105px;
+    margin-top: 55px;
+}
+.list .p1{
+    padding-top: 19px;   
+}
+
+/* -----------main5区域----------- */
+
+.box .main5{
+    width: 100%;
+    height: 913px;
+    background: #ffffff;
+    text-align: center;
+}
+.box .main5 p{
+    font-size: 19px;
+    margin-top: 26px;
+    color:#666666;
+    margin-bottom: 56px;
+}
+
+/* ---------main6区域------------ */
+.box .main6{
+height: 131px;
+width: 100%;
+color: #fff;
+padding: 46px 0;
+text-align: center;
+background-image:url(../images/blue-bg.png);
+}
+.main6 .aa{
+    float: left;
+    width: 33%;
+    height: 138px;
+    border-right: 1px solid  #0052a7;
+}
+.main6 .aa-1 .title{
+    font-size: 60px; 
+    margin-bottom: 30px;
+}
+
+.main6 .cc{
+    float: left;
+    width: 33%;
+    height: 138px;
+    
+    border-right: none;
+}
+.main6 .bb{
+    float: left;
+    width: 33%;
+    height: 138px;
+    border-right: 1px solid  #0052a7;
+}
+.aa-1{
+    position: relative;
+}
+.main6 .line{
+    
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-image: url(../images/blue-bg.png);
+}
+
+
+/* ---------footer区域-------- */
+ .box .footer{
+    text-align: center;
+    height: 663px;
+    width: 100%;
+    color: #fff;
+    background-image: url(../images/images/footer_bj.jpg)
+}
+.box .footer-1{
+    height: 118px;
+    width: 100%;
+    
+}
+.footer img{
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+
+.footer-1 ul{
+    margin-left: 10px;
+    float: left;
+    list-style-type: none;
+}
+.footer .footer-1{
+margin-top:55px;
+
+}
+.footer-1 div{
+    float: left;
+        }
+.footer-1 .box2 h1{
+    float: left;
+    text-indent: 57px;
+    width: 57px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-image: url(../images/images1/foot_tel.png)     
+}
+
+.footer-1 .box2 .box2-bottom {
+    width: 196px;
+    height: 80px;
+    border: 1px solid #ccc;
+    line-height: 80px;
+    padding-left: 70px;
+    background-image: url(../images/images1/foot_c1.png);
+    background-repeat: no-repeat;
+}
+.footer .footer-1 .box2{
+width: 290px;
+height: 200px;
+}
+.footer-1 .box2 .box2-top{
+padding: 0px 0px 35px 0px;
+}
+
+
+.footer .footer-1 .box2{
+margin-left: 87px;
+}
+.footer-1 .box3 .box3-bottom {
+    width: 196px;
+    height: 80px;
+    border: 1px solid #ccc;
+    line-height: 80px;
+    padding-left: 70px;
+    background-image: url(../images/images1/foot_c2.png);
+    background-repeat: no-repeat;
+}
+
+.footer-1 .box3 h1{
+float: left;
+text-indent: 57px;
+width: 57px;
+height: 57px;
+background-repeat: no-repeat;
+background-image: url(../images/images1/foot_wx.png)
+    
+}
+.footer-1 .box3 .box3-top{
+padding: 0px 0px 35px 0px;
+}
+.box .footer-1 .box3{
+width: 290px;
+height: 200px;
+}
+.footer-1 .box4 h1{
+float: left;
+text-indent: 57px;
+width: 57px;
+height: 57px;
+background-repeat: no-repeat;
+background-image: url(../images/images1/foot_qq.png)
+    
+}
+.box .footer-1 .box4{
+width: 290px;
+height: 200px;
+}
+
+.footer-1 .box4 .box4-top{
+padding: 0px 0px 35px 0px;
+}
+.footer-1 .box4 .box4-bottom {
+width: 196px;
+height: 80px;
+border: 1px solid #ccc;
+line-height: 80px;
+padding-left: 70px;
+background-image: url(../images/images1/foot_c3.png);
+background-repeat: no-repeat;
+}
+
+.footer-1 .box5 h1{
+float: left;
+text-indent: 57px;
+width: 57px;
+height: 57px;
+background-repeat: no-repeat;
+background-image: url(../images/images1/foot_sq.png)         
+}
+.box .footer-1 .box5{
+width: 290px;
+height: 200px;
+}
+
+.footer-1 .box5 .box5-top{
+padding: 0px 0px 35px 0px;
+}
+.footer-1 .box5 .box5-bottom {
+width: 196px;
+height: 80px;
+border: 1px solid #ccc;
+line-height: 80px;
+padding-left: 70px;
+background-image: url(../images/images1/foot_c4.png);
+background-repeat: no-repeat;
+}
+
+/* ------------footer-2区域--------- */
+.box .footer-2{
+    margin-top: 60px;
+    font-size: 16px;
+    text-align: left;
+}
