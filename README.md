@@ -5,4 +5,4 @@ H5
 ## day02作业
 <a href="https://jagary.github.io/01.%E5%AE%9A%E4%BD%8D%E6%A1%88%E4%BE%8B.html">定位</a>
 ## dau07作业
-<a href="">超凡科技</a>
+<a href="https://jagary.github.io/day7/html/1.%E8%B6%85%E5%87%A1%E7%A7%91%E6%8A%80.html">超凡科技</a>
