@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width:1365px;
+            height: 570px; 
+        }
+        .box .header-1{
+            width: 1000px;
+            height: 70px;
+            margin:auto;
+            padding-top: 30px;
+        }
+        .header-1 img{
+            float: left;
+        }
+        .header-1 .input{
+            width: 567px;
+            height: 60px;
+        }
+        .input input{
+            margin-left: 43px;
+            float: left;
+            width: 520px;
+            height: 38px;
+        }
+        .input{
+            float: left;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .input ul li{
+            float: left;
+            margin-right: 12px;
+            font-size: 10px;
+        }
+        .input ul{
+            margin-left: 43px;
+            margin-top: 9px;
+        }
+        .input li a{
+            color: #858585;
+            text-decoration: none;
+        }
+        .header-1 .header-right .txt{
+            color: green;
+            margin-left: 100px;
+        }
+        .header-1 .header-right span{
+            font-size: 13px;
+            color: #858585;
+            margin-right: 20px;
+        } 
+        .box .box-nav{
+            width: 1560px;
+            height: 63px;
+            background: #ccc;
+            text-align: center;
+            line-height: 63px;
+            
+        }
+        .box-nav .ul{
+            margin-left: 200px;
+        }
+        .box .box-nav li{
+            float: left;
+            width: 100px;
+            margin-right: 50px;
+            display: block;
+        }
+      
+        .box-nav .box-nav-2 li{
+            display: block;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .nav1-1:hover{
+            background: orange;
+        }
+        .box-nav-2 li:hover{
+            background: red;
+        }
+        .box-nav .box-nav-2 li{
+            display: none;
+        }
+         .nav1-1:hover .box-nav-2 li{
+            display: block;
+        }
+        .banner::after{
+            z-index: 10px;
+            content: "";
+        }
+         /* .box .banner {
+            position: fixed;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header-1">
+            <img src="../images/images/logo.png" alt="">
+            <div class="input">
+                <input type="text" value="网页">
+                <ul>
+                    <li><a href="">360安全大脑</a></li>
+                    <li><a href="">勒索病毒</a></li>
+                    <li><a href="">勒索病毒治疗方法</a></li>
+                    <li><a href="">如何揭秘</a></li>
+                    <li><a href="">首页修复</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                    <span class="txt">中文版</span><span>Global</span><span>登录 注册</span>
+            </div>
+        </div>
+        
+        <div class="box-nav">
+            <ul class="ul">
+                <li class="nav1-1">
+                    <a href="">电脑软件</a>
+                    <ul class="box-nav-2">
+                        <li><a href="">360安全卫士</a></li>
+                        <li><a href="">360压缩</a></li>
+                        <li><a href="">急救包</a></li>
+                    </ul>
+                </li>
+                <li class="nav1-1">
+                    <a href="">手机软件</a>
+                    <ul class="box-nav-2">
+                            <li><a href="">360安全卫士</a></li>
+                            <li><a href="">360压缩</a></li>
+                            <li><a href="">急救包</a></li>
+                        </ul>
+                 </li>
+                <li class="nav1-1">
+                    <a href="">视频 直播</a> 
+                    <ul class="box-nav-2">
+                            <li><a href="">360安全卫士</a></li>
+                            <li><a href="">360压缩</a></li>
+                            <li><a href="">急救包</a></li>
+                        </ul>
+                </li>
+                <li class="nav1-1">
+                    <a href="">个人服务</a> 
+                    <ul class="box-nav-2">
+                            <li><a href="">360安全卫士</a></li>
+                            <li><a href="">360压缩</a></li>
+                            <li><a href="">急救包</a></li>
+                        </ul>
+                </li>
+                <li class="nav1-1">
+                    <a href="">360商城</a> 
+                    <ul class="box-nav-2">
+                            <li><a href="">360安全卫士</a></li>
+                            <li><a href="">360压缩</a></li>
+                            <li><a href="">急救包</a></li>
+                        </ul>
+                </li>
+                <li class="nav1-1">
+                    <a href="">游戏</a>
+                    <ul class="box-nav-2">
+                            <li><a href="">360安全卫士</a></li>
+                            <li><a href="">360压缩</a></li>
+                            <li><a href="">急救包</a></li>
+                        </ul> 
+                </li> 
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="../images/images/banner.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
