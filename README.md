@@ -14,6 +14,10 @@ H5
 
 <a href="https://jagary.github.io/步骤说明.txt">git 步骤</a>
 
+## day08 作业
+
+<a href="https://jagary.github.io/day08_作业/html/360.html">360安全</a>
+
 ## day09 作业
 
 <a href="https://jagary.github.io/day09/html/情感在线咨询.html">挽回对方</a>
