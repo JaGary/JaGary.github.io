@@ -16,7 +16,7 @@ H5
 
 ## day08 作业
 
-<a href="https://jagary.github.io/day08_作业/html/360.html">360安全</a>
+<a href="https://jagary.github.io/day8_作业/html/360.html">360安全</a>
 
 ## day09 作业
 
