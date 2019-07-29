@@ -1,4 +1,4 @@
-.box{
+﻿.box{
     width: 100%;
     height: 1414px;
     margin: auto;
@@ -227,6 +227,12 @@
     border: 1px solid #ccc;
     float: left;
     margin-right: 10px;
+}
+.main1 .list1 p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 10px;
 }
 .main1 .main1-right{
     float: right;

@@ -10,7 +10,6 @@ H5
 
 <a href="https://jagary.github.io/day7/html/1.%E8%B6%85%E5%87%A1%E7%A7%91%E6%8A%80.html">超凡科技</a>
 
-## day03 作业
 
 <a href="https://jagary.github.io/步骤说明.txt">git 步骤</a>
 
@@ -20,4 +19,4 @@ H5
 
 ## day09 作业
 
-<a href="https://jagary.github.io/day09/html/情感在线咨询.html">挽回对方</a>
+<a href="https://jagary.github.io/day09/html/情感在线咨询.html">情感在线咨询</a>
