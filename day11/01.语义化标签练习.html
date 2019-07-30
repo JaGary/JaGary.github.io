@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .box{
+            width: 900px;
+            height: 536px;
+            border: 5px solid #ffffff;
+            margin:  auto;
+            background: #ccc;
+        }
+        .box .top{
+            width: 100%;
+            height: 80px;
+            background: #f47d31;
+            font-size: 72px;
+            color: #fff;
+            text-align: center;
+            line-height: 80px;
+        }
+        .box .content {
+            width: 100%;
+            height: 408px;
+            background: #888888;
+        }
+        .box .bottom{
+            width: 100%;
+            height: 50px;
+            background: #f47d31;
+            color: #ffffff;
+            text-align: center;
+        }
+        .content nav{
+            height: 100%;
+            width: 25%;
+            float: left;
+            font-size: 18px;
+        }
+        .content nav h2{
+            color: #fff;
+            text-align: center;
+            margin-top: 17px;
+        }
+        .content .box1{
+            float: left;
+            width: 50%;
+            height: 389px;
+            margin-top: 11px;
+        }
+        .content aside{
+            width: 25%;
+            float: left;
+            height: 100%;
+            color: #fff;
+            margin-top: 15px;
+        }
+        .content aside h2{
+            color: #fff;
+            text-align: center;
+            margin-bottom: 22px;
+        }
+        .content aside p{
+            font-style: italic;
+            margin-right: 20px;
+        }
+        .box1 .box2{
+            margin:11px;
+            width: 411px;
+            height: 196px;
+            background: #fff;
+        }
+        .box1 .box2 header{
+            height: 32px;
+            width: 100%;
+            background: #f47d31;
+            color: #fff;
+            line-height: 32px;
+            text-align: center;
+        }
+        .box1 .box2 p{
+            font-size: 14px;
+            margin-left: 11px;
+        }
+        .box1 .box2 .p1{
+            margin-top: 18px;
+            margin-bottom: 25px;
+            line-height: 14px;
+        }
+        .box1 .box2 .p2{
+            margin-bottom: 17px;
+            line-height: 14px;
+        }
+        .box1 .box2 footer{
+            height: 28px;
+            width: 100%;
+            line-height: 28px;
+            background: #f47d31;
+            color: #fff;
+            text-align: center;
+        }
+        .box1 .box3{
+            height: 163px;
+            width: 411px;
+            background: #fff;
+            margin: 11px;
+        }
+        .box1 .box3 header{
+            background: #f47d31;
+            height: 31px;
+            line-height: 31px;
+            text-align: center;
+            color: #fff;
+        }
+        .box  .box3 p{
+            height: 54px;
+            width: 100%;
+            line-height: 20px;
+            font-size: 14px;
+            margin-top: 17px;
+            margin-bottom: 20px;
+            margin-left: 11px;
+        }
+        .box1 .box3 footer{
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            background: #f47d31;
+        }
+        .box .content nav ul{
+            margin-top: 14px;
+        }
+        .box .content nav li{
+            height: 43px;
+            color: #f47d31;
+            border-bottom: 3px solid #fff;
+            line-height: 43px;
+            font-size: 13px;
+            padding-left: 15px;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <section class="box">
+        <header class="top">Header</header>
+        <main class="content">
+            <nav>
+                <h2>Nav</h2>
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                    <li>Link 3</li>
+                </ul>
+            </nav>
+            <section class="box1">
+                <section class="box2">
+                    <header>Article Header</header>
+                        <p class="p1">Lorem ipsum dolor HTML5 nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna</p>
+                        <p class="p2">Per inceptos himenaeos. Quisque feugiat, justo at vehicula pellentesque, turpis lorem dictum nunc.</p>
+                    <footer>Aritcle Footer</footer>
+                </section>
+                <section class="box3">
+                    <header>Article Header</header>
+                    <p>HTML5: "Lorem ipsum dolor nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna. Pellentesque odio</p>
+                    <footer>Aritcle Footer</footer>
+                </section>
+            </section>
+            <aside>
+                <h2>Aside</h2>
+                <p>HTML5: "Lorem ipsum dolor nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna. Pellentesque odio rhoncus</p> 
+            </aside>
+        </main>
+        <footer class="bottom">Footer</footer>
+    </section>
+</body>
+</html>

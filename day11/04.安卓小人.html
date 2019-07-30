@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: 100px auto;
+            background: #cccccc;
+            height: 500px;
+            width: 500px;
+            border: 1px solid red;
+        }
+        .box .top{
+            margin: auto;
+            height: 100px;
+            width: 205px;
+            background: #51a251;
+            margin-top: 20px;
+            border-radius: 100px 100px 0px 0px ;
+            position: relative;
+        }
+        .box .top p{
+            float: left;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+            background: #fff;
+        }
+        .box .top .p-left{
+            position: absolute;
+            left: 60px;
+            top: 29px;
+        }
+        .box .top .p-right{
+            position: absolute;
+            left: 120px;
+            top: 30px;
+        }
+        .box .center{
+            margin-top: 10px;
+            margin-left: 110px;
+            height: 230px;
+            margin-top: 10px;
+        }
+        .box .center .center-left{
+            float: left;
+            width: 30px;
+            height: 180px;
+            background: #51a251;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .box .center .center-center{
+            float: left;
+            width: 200px;
+            height: 230px;
+            background: #51a251;
+            border-radius: 0px 0px 10px 10px ;
+            margin-right: 10px;
+        }
+        .box .center .center-right{
+            float: left;
+            width: 30px;
+            height: 180px;
+            background: #51a251;
+            border-radius: 10px;
+        }
+        .box .footer .footer-left{
+            float: left;
+            width: 30px;
+            height: 80px;
+            background: #51a251;
+            border-radius: 0px 0px 20px 20px;
+            margin-left: 190px;
+            margin-right: 60px;
+        }
+        .box .footer .footer-right{
+            float: left;
+            width: 30px;
+            height: 80px;
+            background: #51a251;
+            border-radius: 0px 0px 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <p class="p-left"></p>
+            <p class="p-right"></p>
+        </div>
+        <div class="center">
+            <div class="center-left"></div>
+            <div class="center-center"></div>
+            <div class="center-right"></div>
+        </div>
+        <div class="footer">
+            <div class="footer-left"></div>
+            <div class="footer-right"></div>
+        </div>
+    </div>
+</body>
+</html>

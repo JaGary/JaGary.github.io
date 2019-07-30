@@ -24,3 +24,8 @@ H5
 ## day10作业
 
 <a href="https://jagary.github.io/day10作业/html/03.作业.html">day10作业</a>
+
+## day11
+
+<a href="https://jagary.github.io/day11/04.安卓小人.html">安卓小人</a>
+<a href="https://jagary.github.io/day11/01.语义化标签练习.html">语义化训练</a>
