@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* h2{
+            text-align: center;
+        } */
+        legend{
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        /* .f1{
+            text-align: center;
+             width: 60%; 
+        }  */
+        label{
+            text-align: right;
+            display: inline-block;
+            width: 300px;
+            height: 30px;
+        }
+        .user{
+            width: 300px;
+        }
+        .p1{
+           margin-left: 300px;
+        }
+        .p1 input{
+            margin-right: 40px;
+        }
+        .p2{
+            margin-left: 300px;
+        }
+        .ma{
+            width: 140px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="用户注册">
+        <h2>登录</h2>
+        <fieldset class="f1">
+            <legend>用户登录</legend>
+                <p>
+                <label for="username">用户名</label>
+                <input type="text" id="username" placeholder="请输入用户名" class="user">
+            <br>
+                <label for="password">密码</label>
+                <input type="password" id="password" placeholder="请输入密码" class="user">
+            <br>
+                <label for="yanzhengma">验证码</label>
+                <input type="text" id="yanzhengma" placeholder="验证码" class="ma"> 
+                <input type="button" value="获取短信验证码" class="ma">
+                </p>
+                <p class="p2">
+                    男<input type="radio" name="sex">
+                    女<input type="radio" name="sex">
+                </p>
+                <p class="p1">
+                    <input type="submit" name="提交">
+                    <input type="button" value="登录">
+                    <input type="reset" name="重置">
+                </p>
+        </fieldset>
+    </form>
+    <form action="用户注册">
+        <h2>注册</h2>
+        <fieldset class="f1">
+            <legend>用户注册</legend>
+            <p>
+                <label for="username">用户名</label>
+                <input type="text" id="username" placeholder="请输入用户名" class="user">
+                <br>
+                <label for="tellphone">手机号</label>
+                <input type="text" id="tellphone" placeholder="手机号可以找回密码" class="user">
+                <br>
+                <label for="password">密码</label>
+                <input type="text" name="" id="password" placeholder="请输入密码" class="user">
+                <br>
+                <label for="check">确认密码</label>
+                <input type="text" name="" id="check" placeholder="确认密码" class="user">
+                <br>    
+            </p>
+            <p class="p1">
+                    <input type="submit" name="提交">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
