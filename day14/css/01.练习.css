@@ -1,0 +1,9 @@
+.box{
+   column-count: 5;
+   column-gap: 10px; 
+   column-width: 400px;
+}
+.box img{
+    width: 500px;
+    height: 500px;
+}

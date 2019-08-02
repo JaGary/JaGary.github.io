@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+             margin: 0;
+             padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        ul,li{
+            list-style: none;
+        }
+        body{
+            background: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            display: flex;
+            width: 830px;
+            height: 160px;
+            background: #fff;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .box  li{
+            width: 100px;
+            display: flex;
+            height: 100px;
+            background: #ccc;
+            align-self: center;
+            border-radius: 10px;
+            justify-content: center;
+            box-shadow: 0px -5px 0px 0px #bbbbbb inset,
+            -5px 0px 0px 0px #d7d7d7 inset,
+            5px 0px 0px 0px #d7d7d7 inset,
+            0px 5px 0px 0px #fff inset;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .box li span{
+            width: 25px;
+            height: 25px;
+            background: #333333;
+            border-radius: 20px;
+        }
+        .box li div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .box li:nth-child(1) span{
+            align-self: center;
+        }
+         .box li:nth-child(n+2){
+            justify-content: space-between;
+        }
+        .box li:nth-child(2) span:nth-child(2),
+        .box li:nth-child(3) span:nth-child(3){
+            align-self: flex-end;
+        }
+        .box li:nth-child(3) span:nth-child(2){
+            align-self: center;
+        }
+        .box li:nth-child(3)  span:nth-child(2){
+            align-items: center;
+        }
+        /*  */
+        .box li:nth-child(5)  div:nth-child(2) {
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+        <ul class="box">
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+                <span></span>
+                <span></span>
+            </li>
+            <li>
+                <div>
+                    <span></span><span></span>
+                </div>
+                <div>
+                    <span></span><span></span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span></span><span></span>
+                </div>
+                <div>
+                    <span></span>
+                </div>
+                <div>
+                    <span></span><span></span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span></span><span></span><span></span>
+                </div>
+                <div>
+                    <span></span><span></span><span></span>
+                </div>
+            </li>
+        </ul>
+</body>
+</html>

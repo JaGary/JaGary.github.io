@@ -1,0 +1,36 @@
+.box{
+    width: 300px;
+    height: 100px;
+    background: orchid;
+    border: 1px solid red;
+    border-radius: 5px;
+    position: relative;
+}
+/* 实现一个三角形
+    必须宽高为0
+    border: 20px solid transparent; ------------让四个边的边框颜色都透明
+    border-left-color: red;-------------------实现左边框为红色
+    一个红色三角形生成
+ */
+.box span{
+    display: block;
+    width:0 ;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: red;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+span::after{
+    /* ::after 必须配合content:"";使用 */
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 19px solid transparent;
+    border-left-color: orchid;
+    position: absolute;
+    left: -20px;
+    top: -19px;
+}

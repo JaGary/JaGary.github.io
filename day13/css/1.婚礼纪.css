@@ -1,0 +1,220 @@
+.box{
+    width: 100%;
+    height: 1580px;
+    background: pink;
+}
+/* -----------process区域---------- */
+.box .process{
+    width: 100%;
+    height: 386px;
+    background: #ffffff;
+}
+.box .process .bg{
+    width: 100%;
+    height: 312px;
+    background: url(../images/images/bg.png) no-repeat;
+    background-position: center center;
+}
+.box .process .bg h2{
+    height: 33px;
+    width: 100%;
+    text-align: center;
+    font-size: 33px;
+    padding-top: 56px;
+    line-height:33px; 
+}
+.process .bg .content{
+    width: 1200px;
+    height: 250px;
+    background: #ffffff;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.process .bg ul{
+    /* width: 1070px;
+    height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.process .content li{
+    width: 65px;
+    height: 85px;
+    text-align: center;
+}
+.process .bg .content li img{
+    width: 30px;
+    height: 30px;
+}
+.process .bg .content p{
+    font-size: 14px;
+    color: #273538;
+    margin-top: 40px;
+}
+
+/* -------------hotel区域---------- */
+.box .hotel{
+    width: 100%;
+    height: 470px;
+}
+.box .hotel h2{
+    height: 33px;
+    width: 100%;
+    text-align: center;
+    font-size: 33px;
+    padding-top: 80px;
+    line-height:33px;
+}
+.hotel .hotel-center ul{
+    width: 1220px;
+    height: 210px;
+    display: flex;
+    margin-left: 75px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+.hotel .hotel-center ul li{
+    width: 224px;
+    height: 224px;
+    background: #fff;
+}
+.hotel .hotel-center li p{
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.hotel .hotel-bt{
+    margin-left: 82px;
+    width: 360px;
+    height: 20px;
+    display: flex;
+}
+.hotel .hotel-bt .left{
+    display: flex;
+}
+.hotel .hotel-bt .left h2{
+    width: 14px;
+    height: 16px;
+    background: url(../images/images/po.png) no-repeat;
+}
+.hotel .hotel-bt .left p{
+    font-size: 14px;
+    margin-left: 8px;
+    line-height: 16px;
+}
+.hotel .hotel-bt .left-left{
+    width: 250px;
+    height: 16px;
+    border-left: 2px solid #636363;
+    display: flex;
+    margin-left: 22px;
+    line-height: 16px;
+    color: #636363;
+    justify-content: space-around;
+}
+.box .wedding{
+    height: 680px;
+    width: 100%;
+    background: #ccc; 
+}
+.box .wedding .wedding-top{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wedding .wedding-top h2{
+    font-size: 33px;
+}
+.wedding .wedding-top .wedding-center{
+    display: flex;
+    margin-top: 30px;
+}
+.wedding .wedding-center li span{
+    margin-left: 11px;
+    margin-right: 11px;
+    color: #636363;
+}
+.wedding .wedding-ce{
+    margin-left: 75px;
+    margin-top: 40px;
+    height: 345px;
+}
+.wedding .wedding-ce ul{
+    display: flex;
+    justify-content: space-around; 
+}
+.wedding-ce ul li{
+    width: 285px;
+    height: 285px;
+     display: flex;
+    justify-content: space-around;
+}
+.wedding-ce ul .list1{
+    background: url(../images/images/img1.png) no-repeat;
+}
+.wedding-ce ul .list2{
+    background: url(../images/images/img2.png) no-repeat;
+}
+.wedding-ce ul .list3{
+    background: url(../images/images/img3.png) no-repeat;
+}
+.wedding-ce ul .list4{
+    background: url(../images/images/img4.png) no-repeat;
+}
+.wedding-ce .list1-2{
+    width: 253px;
+    height: 110px;
+    background: #fff;
+    margin-top: 231px; 
+}
+.wedding-ce  .list1-2 h2{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.wedding-ce  .list1-2 ul{
+    margin-top: 20px;
+    display: flex;
+}
+.wedding-ce .list1-2 ul li{
+    font-size: 13px;
+    color: #333;
+}
+.wedding-ce .list1-2 ul span{
+    color: #ccc;
+}
+.wedding .more{
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    background: blue;
+    border-radius: 30px;
+    margin-left: 595px;
+    display: flex;
+    justify-content: center;
+}
+.wedding .more a{
+    display: flex;
+    justify-content: center;
+}
+.wedding .more p{
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-right: 20px;
+}
+.wedding .more span{
+    display: block;
+    width: 14px;
+    height: 10px;
+    margin-top: 20px;
+    background: url(../images/images/jiantou.png) no-repeat;
+}
+

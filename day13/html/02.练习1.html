@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 1200px;
+            height: 600px;
+            background-image: url(../images/feature.jpg);
+            display: flex;
+            margin: auto;
+        }
+        .box .list{
+            width: 300px;
+            height: 300px;
+            background: #fff;
+            position: relative;
+        }
+        /* -------给子元素设置---------- */
+        .box .list:nth-child(2n+1){
+            align-self: flex-end;
+        }
+        .box .list .span1{
+            display: block;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-right-color: #ecedf2;
+            position: absolute;
+            top: 50px;
+            left: 260px;
+        }
+        .box .list .span2{
+            display: block;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-left-color: #ecedf2;
+            position: absolute;
+            top: 50px;
+            left: -1px;
+        }
+           .box .list .span4{
+            display: block;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-left-color: #f8efde;
+            position: absolute;
+            top: 240px;
+            left: -4px;
+        }
+         .box .list .span3{
+            display: block;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-right-color: #ffe3c9;
+            position: absolute;
+            top: 230px;
+            left: 260px;
+        }
+        .box .list .content{
+            text-align: center;
+        }
+        .box .list .content p{
+            color: #ccc;
+            font-size: 15px;
+        }
+        .list .content .more{
+            width: 188px;
+            height: 51px;
+           border: 1px solid red;
+           color: red;
+           margin-left: 57px;
+           border-radius: 30px;
+           margin-top: 32px;
+           text-align: center;
+           line-height: 51px;
+        }
+        .list .content .more span{
+            margin-right: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="list">
+            <span class="span1"></span>
+            <div class="content">
+                <h2>课时精练</h2>
+                <p>一再浓缩课时</p>
+                <p>只讲考试情报</p>
+                <p>补考的不用多学</p>
+                <h3>真正的"简明扼要"</h3>
+                <div class="more">
+                    <span>了解课时</span>
+                    <img src="../images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <span class="span2"></span>
+            <div class="content">
+                <h2>真名师</h2>
+                <p>一再浓缩课时</p>
+                <p>只讲考试情报</p>
+                <p>补考的不用多学</p>
+                <h3>真正的"万里挑一"</h3>
+                <div class="more">
+                    <span>了解名师</span>
+                    <img src="../images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <span class="span3"></span>
+            <div class="content">
+                <h2>高效提分</h2>
+                <p>一再浓缩课时</p>
+                <p>只讲考试情报</p>
+                <p>补考的不用多学</p>
+                <h3>真正的"立竿见影"</h3>
+                <div class="more">
+                    <span>了解效果</span>
+                    <img src="../images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <span class="span4"></span>
+            <div class="content">
+                <h2>真情报</h2>
+                <p>一再浓缩课时</p>
+                <p>只讲考试情报</p>
+                <p>补考的不用多学</p>
+                <h3>真正的"只打靶心"</h3>
+                <div class="more">
+                    <span>了解情报</span>
+                    <img src="../images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
