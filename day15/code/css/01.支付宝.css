@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+i {
+  font-style: normal;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#box header {
+  height: 4.266667rem;
+  background: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#box header .header-1 {
+  display: flex;
+  flex: 2;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+#box header .header-1 i {
+  font-size: 20px;
+}
+
+#box header .header-1 li:nth-child(1) {
+  flex: 6;
+  padding-left: 10px;
+}
+
+#box header .header-1 li:nth-child(n+2) {
+  flex: 1;
+}
+
+#box header .header-2 {
+  display: flex;
+  flex: 3;
+  justify-content: space-around;
+  color: #ffffff;
+  align-items: center;
+}
+
+#box header .header-2 i {
+  font-size: 30px;
+}
+
+#box header .header-2 li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box header .header-2 li span {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#box main {
+  flex: 1;
+  background: #ffffff;
+}
+
+#box main .main-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#box main .main-1 li {
+  width: 2.446667rem;
+  height: 2.293333rem;
+  border: 1px solid #ccc;
+  display: flex;
+  border-collapse: collapse;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box main .main-1 li i {
+  font-size: 30px;
+}
+
+#box main .main-1 li span {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#box main .main-1 li:nth-child(1) i, #box main .main-1 li:nth-child(4) i, #box main .main-1 li:nth-child(7) i, #box main .main-1 li:nth-child(8) i {
+  color: #2eb3e8;
+}
+
+#box main .main-1 li:nth-child(2) i, #box main .main-1 li:nth-child(11) i {
+  color: #29ab91;
+}
+
+#box main .main-1 li:nth-child(3) i, #box main .main-1 li:nth-child(5) i, #box main .main-1 li:nth-child(9) i, #box main .main-1 li:nth-child(10) i {
+  color: #dd2727;
+}
+
+#box main .main-1 li:nth-child(13) i, #box main .main-1 li:nth-child(14) i {
+  color: #dd2727;
+}
+
+#box main .main-1 li:nth-child(6) i, #box main .main-1 li:nth-child(12) i {
+  color: #ffb359;
+}
+
+#box main .main-1 li:nth-child(n+15) i {
+  color: #2eb3e8;
+}
+
+#box footer {
+  height: 1.333333rem;
+  background: #fff;
+  color: #ccc;
+}
+
+#box footer .footer-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#box footer .footer-1 li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box footer .footer-1 li i {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#box footer .footer-1 li:hover {
+  color: #00aaee;
+}
