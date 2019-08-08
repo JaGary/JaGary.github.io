@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            background: url(../images/charector.png);
+            animation: bengtiao .8s steps(6,end) infinite;
+            /* steps()----------让整个动画分为多少帧 ，如果是end，那就-1.如果是start，那就不减 */
+        }
+        @keyframes bengtiao {
+            0%{
+               background-position: 0px 0px;
+            }
+            100%{
+                background-position: -1080px 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

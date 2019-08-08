@@ -1,0 +1,430 @@
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  width: 100%;
+  height: 100%;
+}
+
+#box header {
+  display: flex;
+  height: 1.2rem;
+  margin-top: .4rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#box header .header-left {
+  display: flex;
+  margin-left: .533333rem;
+}
+
+#box header .header-left img {
+  width: .733333rem;
+  height: .586667rem;
+}
+
+#box header .header-left span {
+  font-size: .4rem;
+  margin-left: .266667rem;
+}
+
+#box header .header-right {
+  color: #de9d03;
+  margin-left: 3.733333rem;
+}
+
+#box header .header-right span {
+  width: 3.733333rem;
+  height: .4rem;
+  border-right: 1px solid #ccc;
+  font-size: .373333rem;
+  text-align: center;
+  line-height: .4rem;
+  margin-right: .2rem;
+}
+
+#box header .header-right span a {
+  color: #de9d03;
+  margin-right: .4rem;
+}
+
+#box main .main-input {
+  width: 9.2rem;
+  height: .733333rem;
+  background: #ccc;
+  border-radius: 10px;
+  margin-left: .4rem;
+  margin-top: .266667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box main .main-input span {
+  display: block;
+  color: #959595;
+  color: .333333rem;
+  margin-left: .133333rem;
+}
+
+#box main .banner {
+  margin-top: .266667rem;
+  width: 100%;
+  height: 4rem;
+  background: url(../images/wKgE2l1EL2uAFhCHAAp3MID-mDk089.jpg) no-repeat;
+}
+
+#box main .banner p {
+  position: absolute;
+  font-size: .4rem;
+  color: #fff;
+  top: 5.666667rem;
+  left: .266667rem;
+}
+
+#box main .main1 {
+  height: 13.066667rem;
+}
+
+#box main .main1 .main1-nav {
+  height: 2.533333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box main .main1 .main1-nav h2 {
+  font-size: .466667rem;
+  font-weight: bold;
+}
+
+#box main .main1 .main1-nav h2 a {
+  width: .466667rem;
+  height: .466667rem;
+  border-radius: .133333rem;
+  background: #ccc;
+}
+
+#box main .main1 .main1-nav span {
+  display: block;
+  font-size: .266667rem;
+  color: #959595;
+  margin-top: .133333rem;
+}
+
+#box main .main1 .main1-content {
+  height: 10.533333rem;
+  border-top: 1px dashed #ccc;
+  margin: 0px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#box main .main1 .main1-content .nav1 {
+  margin-top: .4rem;
+  display: flex;
+  height: 8.133333rem;
+}
+
+#box main .main1 .main1-content .nav1 li {
+  display: block;
+  width: 2.333333rem;
+  border-right: 1px solid #ccc;
+  height: .266667rem;
+  text-align: center;
+  font-size: .426667rem;
+  line-height: .266667rem;
+}
+
+#box main .main1 .main1-content .nav1 li .nav2 {
+  width: 9.066667rem;
+  height: 6.533333rem;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+  margin-top: .266667rem;
+}
+
+#box main .main1 .main1-content .nav1 li .nav2 li {
+  width: 2.746667rem;
+  height: 2.933333rem;
+  margin-left: .249rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box main .main1 .main1-content .nav1 li .nav2 li img {
+  width: 100%;
+  height: 2.266667rem;
+  margin-bottom: .133333rem;
+}
+
+#box main .main1 .main1-content .nav1 li .nav2 li img span {
+  display: block;
+  font-size: .266667rem;
+}
+
+#box main .main1 .main1-content .nav1 li a {
+  color: #959595;
+  margin-bottom: .133333rem;
+}
+
+#box main .main1 .main1-content .nav1 li:hover .nav2 {
+  display: flex;
+}
+
+#box main .main1 .main1-content .nav1 li:nth-child(4) {
+  border-right: none;
+}
+
+#box main .main1 .main1-content .nav1 li:target a {
+  color: #de9d03;
+  border-bottom: 2px solid #de9d03;
+}
+
+#box main .main1 .main1-content .main1-1 {
+  margin-left: 2.706667rem;
+  width: 4.533333rem;
+  height: 1.133333rem;
+  text-align: center;
+  border: 1px solid #f7cb5e;
+}
+
+#box main .main1 .main1-content .main1-1 a {
+  font-size: .373333rem;
+  color: #f7cb5e;
+  line-height: 1.133333rem;
+}
+
+#box main .main2 {
+  height: 13.066667rem;
+}
+
+#box main .main2 .main1-nav {
+  height: 2.533333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box main .main2 .main1-nav h2 {
+  font-size: .466667rem;
+  font-weight: bold;
+}
+
+#box main .main2 .main1-nav h2 a {
+  width: .466667rem;
+  height: .466667rem;
+  border-radius: .133333rem;
+  background: #ccc;
+}
+
+#box main .main2 .main1-nav span {
+  display: block;
+  font-size: .266667rem;
+  color: #959595;
+  margin-top: .133333rem;
+}
+
+#box main .main2 .main1-content {
+  height: 10.533333rem;
+  border-top: 1px dashed #ccc;
+  margin: 0px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#box main .main2 .main1-content .nav1 {
+  margin-top: .4rem;
+  display: flex;
+  height: 8.133333rem;
+}
+
+#box main .main2 .main1-content .nav1 li {
+  display: block;
+  width: 2.333333rem;
+  border-right: 1px solid #ccc;
+  height: .266667rem;
+  text-align: center;
+  font-size: .426667rem;
+  line-height: .266667rem;
+}
+
+#box main .main2 .main1-content .nav1 li .nav2 {
+  width: 9.066667rem;
+  height: 6.533333rem;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+  margin-top: .266667rem;
+}
+
+#box main .main2 .main1-content .nav1 li .nav2 li {
+  width: 2.746667rem;
+  height: 2.933333rem;
+  margin-left: .249rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box main .main2 .main1-content .nav1 li .nav2 li img {
+  width: 100%;
+  height: 2.266667rem;
+  margin-bottom: .133333rem;
+}
+
+#box main .main2 .main1-content .nav1 li .nav2 li img span {
+  display: block;
+  font-size: .266667rem;
+}
+
+#box main .main2 .main1-content .nav1 li a {
+  color: #959595;
+  margin-bottom: .133333rem;
+}
+
+#box main .main2 .main1-content .nav1 li:hover .nav2 {
+  display: flex;
+}
+
+#box main .main2 .main1-content .nav1 li:nth-child(4) {
+  border-right: none;
+}
+
+#box main .main2 .main1-content .nav1 li:target a {
+  color: #de9d03;
+  border-bottom: 2px solid #de9d03;
+}
+
+#box main .main2 .main1-content .main1-1 {
+  margin-left: 2.706667rem;
+  width: 4.533333rem;
+  height: 1.133333rem;
+  text-align: center;
+  border: 1px solid #f7cb5e;
+}
+
+#box main .main2 .main1-content .main1-1 a {
+  font-size: .373333rem;
+  color: #f7cb5e;
+  line-height: 1.133333rem;
+}
+
+#box main .main3 {
+  height: 13.066667rem;
+}
+
+#box main .main3 .main3-nav {
+  height: 2.533333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box main .main3 .main3-nav h2 {
+  font-size: .466667rem;
+  font-weight: bold;
+}
+
+#box main .main3 .main3-nav h2 a {
+  width: .466667rem;
+  height: .466667rem;
+  border-radius: .133333rem;
+  background: #ccc;
+}
+
+#box main .main3 .main3-nav span {
+  display: block;
+  font-size: .266667rem;
+  color: #959595;
+  margin-top: .133333rem;
+}
+
+#box main .main3 .main3-content {
+  height: 10.533333rem;
+  border-top: 1px dashed #ccc;
+  margin: 0px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#box main .main3 .main3-content .nav3 {
+  margin-top: .4rem;
+  display: flex;
+  height: 8.133333rem;
+}
+
+#box main .main3 .main3-content .nav3 li {
+  display: block;
+  width: 2.333333rem;
+  border-right: 1px solid #ccc;
+  height: .266667rem;
+  text-align: center;
+  font-size: .426667rem;
+  line-height: .266667rem;
+}
+
+#box main .main3 .main3-content .nav3 li .nav2 {
+  width: 9.066667rem;
+  height: 6.533333rem;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+  margin-top: .266667rem;
+}
+
+#box main .main3 .main3-content .nav3 li .nav2 li {
+  width: 2.746667rem;
+  height: 2.933333rem;
+  margin-left: .249rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box main .main3 .main3-content .nav3 li .nav2 li img {
+  width: 100%;
+  height: 2.266667rem;
+  margin-bottom: .133333rem;
+}
+
+#box main .main3 .main3-content .nav3 li .nav2 li img span {
+  display: block;
+  font-size: .266667rem;
+}
+
+#box main .main3 .main3-content .nav3 li a {
+  color: #959595;
+  margin-bottom: .133333rem;
+}
+
+#box main .main3 .main3-content .nav3 li:hover .nav2 {
+  display: flex;
+}
+
+#box main .main3 .main3-content .nav3 li:nth-child(4) {
+  border-right: none;
+}
+
+#box main .main3 .main3-content .nav3 li:target a {
+  color: #de9d03;
+  border-bottom: 2px solid #de9d03;
+}
+
+#box main .main3 .main3-content .main3-1 {
+  margin-left: 2.706667rem;
+  width: 4.533333rem;
+  height: 1.133333rem;
+  text-align: center;
+  border: 1px solid #f7cb5e;
+}
+
+#box main .main3 .main3-content .main3-1 a {
+  font-size: .373333rem;
+  color: #f7cb5e;
+  line-height: 1.133333rem;
+}

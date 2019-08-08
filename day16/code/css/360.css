@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  height: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#box {
+  width: 100%;
+  height: 100%;
+  margin: 100px auto;
+}
+
+#box ul {
+  display: flex;
+}
+
+#box ul li {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+#box ul li p {
+  line-height: 40px;
+  font-size: .266667rem;
+  margin-left: 5px;
+}
+
+#box ul li span {
+  display: block;
+  width: 13px;
+  height: 13px;
+  margin-top: 13px;
+  background: url(../images/360bg.png) no-repeat;
+}
+
+#box ul li:nth-child(n+2) {
+  border-left: none;
+}
+
+#box ul li:nth-child(1) span {
+  background-position: 0px -68px;
+}
+
+#box ul li:hover span {
+  background-position: 0px -106px;
+}
+
+#box ul li:nth-child(2) span {
+  background-position: 0px -144px;
+}
+
+#box ul li:nth-child(3) span {
+  background-position: 0px -226px;
+}
+
+#box ul li:nth-child(4) span {
+  background-position: 0px -309px;
+}
