@@ -50,20 +50,28 @@ H5
 
 <a href="https://jagary.github.io/day14/html/03.支付宝.html">支付宝</a>
 
-<a href="https://jagary.github.io/day14/html/work.开源网布局.html">开源网含bug</a>
+<a href="https://jagary.github.io/day14/html/work.开源网布局.html">开源网含 bug</a>
 
-## day15 
+## day15
 
-<a href="https://jagary.github.io/day15/code/html/elm.html">饿了吗1index</a>
+<a href="https://jagary.github.io/day15/code/html/elm.html">饿了吗 1index</a>
 
-<a href="https://jagary.github.io/day15/code/html/elm02.html">饿了吗2</a>
+<a href="https://jagary.github.io/day15/code/html/elm02.html">饿了吗 2</a>
 
-#  day16
+# day16
 
 <a href="https://jagary.github.io/day16/code/html/02.马蜂窝.html">马蜂窝</a>
 
+# day17
+
+<a href="https://jagary.github.io/day17/code/html/03.动画效果.html">动画效果</a>
+
+<a href="https://jagary.github.io/day17/code/html/01.3D旋转.html">3D 旋转</a>
+
+<a href="https://jagary.github.io/day17/code/html/02.Rumoob.html">一个静态页面 rumoob</a>
+
 # day19 机试题
 
-<a href="https://jagary.github.io/1909班机试+总结\code\html\pc.html">pc端</a>
+<a href="https://jagary.github.io/1909班机试+总结\code\html\pc.html">pc 端</a>
 
 <a href="https://jagary.github.io/1909班机试+总结\code\html\yidongduan.html">移动端</a>

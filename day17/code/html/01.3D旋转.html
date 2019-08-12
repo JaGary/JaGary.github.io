@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+        ul,li{
+            list-style: none;
+        }
+        body{
+            background: #000;
+        }
+        ul{
+            /* 将父元素转换成3d 
+                transform-style: preserve-3d;
+            */
+            transform-style: preserve-3d;
+            /* 将盒子设置成一直处于居中位置 
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin:auto;
+            */
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin:auto;
+            width: 300px;
+            height: 300px;
+            /*  景深，设置要比元素本身大 */
+            /* perspective: 1000px; */
+            transform: rotateX(-20deg) rotateY(-20deg);
+            /* 使用动画效果  其中名字要对应 */
+            animation: move 3s infinite;
+        }
+         ul li{
+             width: 300px;
+             height: 300px;
+             position: absolute;
+             left: 0;
+             top: 0;
+             box-shadow: 0px 0px 5vh 0px  currentColor;
+             /* opacity: .6; */
+             line-height: 300px;
+             text-align: center;
+             font-size: 50px;
+         }
+        ul li:nth-child(1){
+             color: blue;
+             transform: translateX(150px) rotateY(90deg);
+         }
+         ul li:nth-child(2) {
+             color: gold;
+             transform: translateX(-150px) rotateY(-90deg);
+         }
+         ul li:nth-child(3){
+             color: red;
+             transform: translateY(150px) rotateX(90deg);
+         }
+        ul li:nth-child(4){
+             color: green;
+             transform: translateY(-150px) rotateX(-90deg);
+         }
+         ul li:nth-child(5){
+             color: pink;
+             transform: translateZ(150px);
+         }
+        ul  li:nth-child(6){
+             color: purple;
+             transform: translateZ(-150px);
+         }
+         /* 让立方体有个动画效果 
+         2种方法： move 名字可以随意取，但上面要使用的地方记得改
+          @keyframes move{
+             to{
+                transform: rotateX(-20deg) rotateY(-20deg);
+             }
+             from{
+                transform: rotateX(360deg) rotateY(360deg);
+             }
+         }
+
+          @keyframes move{
+             0%{
+                transform: rotateX(-20deg) rotateY(-20deg);
+             }
+             100%{
+                transform: rotateX(360deg) rotateY(360deg);
+             }
+         }
+          */
+         @keyframes move{
+             0%{
+                transform: rotateX(-20deg) rotateY(-20deg);
+             }
+             100%{
+                transform: rotateX(360deg) rotateY(360deg);
+             }
+         }
+         ul:hover li{
+             background: currentColor;
+         }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+</body>
+</html>
