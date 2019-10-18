@@ -8,7 +8,7 @@ H5
 
 ## dau07 作业
 
-<a href="https://github.com/JaGary/test1/day7/html/1.%E8%B6%85%E5%87%A1%E7%A7%91%E6%8A%80.html">超凡科技</a>
+<a href="https://test1/day7/html/1.%E8%B6%85%E5%87%A1%E7%A7%91%E6%8A%80.html">超凡科技</a>
 
 <a href="https://github.com/JaGary/test1/步骤说明.txt">git 步骤</a>
 
